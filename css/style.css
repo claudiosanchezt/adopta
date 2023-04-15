@@ -1,0 +1,169 @@
+/* colores globales para simplificarme la vida - minificado */
+.t-morado{color:#96c799;}.t-celeste{color:#bbf1e4;}.t-amarillo{color:#eeeb8f;}.t-verde{color:#a3d2b9;}.t-naranjo{color:#f1be9d;}.t-rosado{color:#e4db8d;}
+/* colores para los background */
+.bg-morado{background-color:#96c799 !important;}.bg-celeste{background-color:#bbf1e4 !important;}.bg-amarillo{background-color:#eeeb8f !important;}.bg-verde{background-color:#a3d2b9 !important;}.bg-naranjo{background-color:#f1be9d !important;}.bg-rosado{background-color:#e4db8d !important;}
+
+/* esto oculta el topbar morado en mobile */
+@media only screen and (max-width: 767px) {
+    /* Estilos para dispositivos móviles */
+    .topbar{
+        display: none;
+    }
+    .laptops{
+        display: none;
+    }
+    }
+/* para ocultar en disp grandes */
+ @media (min-width: 768px) and (max-width: 1600px) {
+    .mobile{
+        display: none;
+    }
+ }
+/* ================ estilos generales ================ */
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.topbar{
+    background-color: #96c799;
+    height: 50px;
+}
+.topbar ul li a{
+    color: #212121;
+    font-weight: 600;
+}
+.topbar ul li a:hover{
+    color: #fff;
+}
+.barra-ppal{
+    background: #1c4d21;
+}
+
+.fund{
+    color: #a3d2b9;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.adop{
+    color: #e4db8d;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.barra-ppal ul li a{
+    color: #e4db8d;
+    font-weight: 800;
+}
+
+.barra-ppal ul li a:hover{
+    color: #96c799;
+}
+.naranjo{
+    color: #ea905e;
+}
+.t1{
+    font-weight: 600;
+}
+.verde{
+    color: #a3d2b9;
+}
+.t2{
+    font-weight: 780;
+    font-size: 2rem;
+}
+.t3{
+    font-size: 1.1rem;
+}
+.morado{
+    color: #96c799;
+}
+.t4{
+    font-weight: 700;
+}
+.donaciones{
+    background-color: #eeeb8f;
+}
+.fmorado{
+    background-color: #96c799;
+}
+.fmorado:hover{
+    background-color: #55b95d !important;
+}
+
+.perrin{
+    background-color: #96c799;
+    border: 10px solid #96c799;
+    border-radius: 2rem 2rem;
+}
+.perrin img{
+    border-radius: 2rem 2rem;
+}
+.calendario{
+    color: #ea905e;
+    font-size: 1.7rem;
+}
+.n-animal{
+    color: #668b69;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 0px;
+    padding: 0px;
+    /* padding: 0px; */
+}
+.texto-pequeno{
+    font-size: .9rem;
+    padding: 0;
+    margin: 0;
+}
+.desc-animal{
+    font-size: .8rem;
+}
+.info-animal{
+    background-color: #96c799;
+    border: 0px solid #96c799;
+    border-radius: 2rem 2rem;
+}
+.info-animal:hover{
+    background-color: #668b69 !important;
+    border: 0px solid #96c799;
+    border-radius: 2rem 2rem;
+}
+.justify{
+    text-align: justify;
+}
+.rosado{
+    background-color: #e4db8d;
+    color: #96c799;
+    border-radius: 2rem;
+}
+.calendario-lg{
+    color: #ea905e;
+    font-size: 2.7rem;
+}
+.display-7{
+    font-size: 1.4rem;
+}
+.flecha{
+    font-size: 5rem;
+}
+.table-celeste{
+    background-color: #e9adc9;
+}
+.fotos-gal img{
+    border: 3px solid #ecb496;
+    border-radius: 1rem;
+    opacity: .9;
+}
+.fotos-gal:hover{
+    background: #ecb496;
+    border-radius: 1rem;
+}
+p.t-verde{
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.titulos{
+    font-size:2.5rem;
+    font-weight: 800;
+}
+
+/* para adornar los recuadros */
